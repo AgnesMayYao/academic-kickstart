@@ -39,7 +39,7 @@ summary = "my experience of using different features, models to classify differe
 +++
 ## Common Audio Classification Procedure
 1. Preprocessing (filtering, smoothing, ..)
-2. Feature Engineering (accoustic features, spectrograms, audio encoders, combination, ..)
+2. Feature Engineering (accoustic features, spectrograms, audio encoders, combinations of multiple features, ...)
 3. Model training (classic machine learning models, CNNs, RNNs, ..)
 4. Postprocessing(smoothing)
 
@@ -47,7 +47,7 @@ summary = "my experience of using different features, models to classify differe
 ## Preprocessing
 1. Know your data, examine your data
   * if you give trash to your ML algorithm, it will give back trash.
-  * Remove irrelevant noises (eg. silence, beginning, ending,..). Give fewer confusing noises to your model and help your model to focus on the necessary.
+  * Remove irrelevant noises (eg. silence, beginning, ending, ...). Give fewer confusing noises to your model and help your model to focus on the necessary.
 2. Filtering ([scipy.signal](https://docs.scipy.org/doc/scipy-0.16.1/reference/signal.html))
   * High pass filter, low pass filter, bandpass filter
   * Eg. My project focuses on infant noises and infants have F0 > 400 Hz. So any sound doesn't have high energy at frequencies > 400 Hz should be excluded.
