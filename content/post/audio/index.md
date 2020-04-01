@@ -1,6 +1,6 @@
 +++
-title = "Sound Classification"
-subtitle = "Experience of Infant Fuss/Cry Classification"
+title = "A simple tutorial on sound classification"
+subtitle = ""
 
 date = 2020-03-31T00:00:00
 lastmod = 2020-03-31T00:00:00
