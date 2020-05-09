@@ -25,6 +25,7 @@ interests:
 - Deep Learning
 - Activity Recognition
 - Affect Detection
+- Natural Language Processing
 
 
 education:
