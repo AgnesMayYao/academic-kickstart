@@ -17,6 +17,19 @@ date_format = "2006-01-02"
 #   Required fields are `title`, `company`, and `date_start`.
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
+
+[[experience]]
+  title = "Software Engineer Intern"
+  company = "Apple"
+  company_url = ""
+  location = "online (covid-19)"
+  date_start = "2020-05-18"
+  date_end = "2020-08-07"
+  description = """
+  * Working with Apple Ad Platforms
+  """
+  
+  
 [[experience]]
   title = "Graduate Research Assistant"
   company = "The University of Texas at Austin"
@@ -25,9 +38,10 @@ date_format = "2006-01-02"
   date_start = "2018-08-28"
   date_end = ""
   description = """
-  * Collected and cleaned 60 hours of home recording audio data
-  * Working on audio classification of infant fussing and crying using deep neural nets
+  * Collected and cleaned 780 hours of home recording audio data
+  * Worked on audio classification of infant fussing and crying using deep neural nets
   * Incorporating the idea of individual differences in feature engineering and modelling
+  * Web scraping 2 years' conversations between Postpartum Support International and affected mothers and building a chatbot
   """
   
 [[experience]]
